@@ -1,0 +1,52 @@
+/* Universal */
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* content*/
+
+content {
+  display: flex;
+  justify-content: center;
+}
+  /* mission*/
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("images/background.jpg")
+}
+
+.mission .text-content {
+  background-color: black;
+  width: 1200px;
+
+}
