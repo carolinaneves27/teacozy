@@ -37,7 +37,9 @@ content {
   justify-content: center;
   align-items: center;
 }
+
   /* mission*/
+
 .mission {
   display: flex;
   justify-content: center;
@@ -59,10 +61,17 @@ content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 1000px;
 
-.firstrow {
-  display: flex;
+}
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+
+}
+
+.image {
+  margin-right: 33px;
 }
