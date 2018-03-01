@@ -33,7 +33,9 @@ a {
 
 content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
   /* mission*/
 .mission {
@@ -48,5 +50,19 @@ content {
 .mission .text-content {
   background-color: black;
   width: 1200px;
+
+}
+
+  /* tea */
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+
+.firstrow {
+  display: flex;
 
 }
