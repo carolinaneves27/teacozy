@@ -5,6 +5,9 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+}
+
+p, h2, h3, h4, h5 {
   text-align: center;
 }
 
@@ -86,8 +89,10 @@ content {
 .locations {
   display: flex;
   flex-direction: column;
-  background-image: url("images/locations.jpg")
   width: 1200px;
+  height: 500px;
+  background-image: url("images/locations.jpg")
+
 
 }
 
@@ -98,16 +103,30 @@ content {
 }
 
 .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 300px;
   height: 300px;
   background-color: black;
   margin-right: 40px;
   margin-top: 15px;
+  opacity: 1px;
 }
 
+/* contact */
+
+.contact {
+  height: 200px;
+}
 
 /* footer */
 
-.copyright {
-  
+footer {
+  padding: 20px;
+  width: 100%
+}
+
+span {
+  text-align: left;
 }
